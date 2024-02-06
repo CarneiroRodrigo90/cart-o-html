@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Protest+Revolution&display=swap');
+.cartao { 
+  width: 360px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#rodrigoCarneiro {
+  background-image: url('14960493_5532919.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagem__perfil {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.titulo__rodrigo, .subtitulo__rodrigo {
+  font-family: 'Advertência', cursive;
+  text-align: center;
+  }
+
+.titulo__rodrigo {
+  font-size: 20px;
+}
+
+.subtitulo__rodrigo {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.links__rodrigo {
+  display: flex;
+  gap: 12px;
+}
+
+.links__rodrigo img {
+  transition: .6s;
+}
+
+.links__rodrigo img:hover {
+  transform: scale(1.2);
+}
